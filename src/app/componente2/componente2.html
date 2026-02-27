@@ -1,0 +1,13 @@
+<div class="poke-list">
+	<h2>Listado de Pokémon</h2>
+
+	<div *ngIf="loading">Cargando...</div>
+	<div *ngIf="error" class="error">{{ error }}</div>
+
+  <div *ngIf="!loading && !error" class="pokemon-grid">
+    <div *ngFor="let p of pokemons" class="pokemon-card">
+      <img [src]="p.image" [alt]="p.name" [title]="p.name" class="pokemon-image" />
+      <span class="name">{{ p.name }}</span>
+      <span class="id">#{{ p.id }}</span>
+    </div>
+  </div>

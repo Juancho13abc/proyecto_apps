@@ -1,76 +1,109 @@
 {
-  "hash": "be122190",
-  "configHash": "04ca58cd",
+  "hash": "16484961",
+  "configHash": "83085c18",
   "lockfileHash": "acd74dc8",
-  "browserHash": "203ec581",
+  "browserHash": "fbe34b2b",
   "optimized": {
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "ac234d5b",
+      "needsInterop": false
+    },
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "2a24eb63",
+      "fileHash": "1a2dde82",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "f6135f05",
+      "fileHash": "27978a5f",
       "needsInterop": false
     },
     "@angular/platform-server/init": {
       "src": "../../../../../../node_modules/@angular/platform-server/fesm2022/init.mjs",
       "file": "@angular_platform-server_init.js",
-      "fileHash": "76cdbac9",
+      "fileHash": "0acc058d",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "a39377c4",
+      "fileHash": "2c15d036",
       "needsInterop": false
     },
     "@angular/ssr": {
       "src": "../../../../../../node_modules/@angular/ssr/fesm2022/ssr.mjs",
       "file": "@angular_ssr.js",
-      "fileHash": "f0287aff",
+      "fileHash": "35438be0",
       "needsInterop": false
     },
     "@angular/ssr/node": {
       "src": "../../../../../../node_modules/@angular/ssr/fesm2022/node.mjs",
       "file": "@angular_ssr_node.js",
-      "fileHash": "99748e33",
+      "fileHash": "371e5c7f",
       "needsInterop": false
     },
     "express": {
       "src": "../../../../../../node_modules/express/index.js",
       "file": "express.js",
-      "fileHash": "07a1973a",
+      "fileHash": "12636cf8",
       "needsInterop": true
     },
-    "@angular/common": {
-      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
-      "file": "@angular_common.js",
-      "fileHash": "83908d23",
+    "@angular/common/http": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "e1b9fea1",
       "needsInterop": false
+    },
+    "rxjs": {
+      "src": "../../../../../../node_modules/rxjs/dist/cjs/index.js",
+      "file": "rxjs.js",
+      "fileHash": "a34fedb2",
+      "needsInterop": true
+    },
+    "rxjs/operators": {
+      "src": "../../../../../../node_modules/rxjs/dist/cjs/operators/index.js",
+      "file": "rxjs_operators.js",
+      "fileHash": "c521bdd1",
+      "needsInterop": true
     }
   },
   "chunks": {
     "xhr2-E5RTESSH": {
       "file": "xhr2-E5RTESSH.js"
     },
-    "chunk-42KJMNRV": {
-      "file": "chunk-42KJMNRV.js"
+    "chunk-ZPIBDSKU": {
+      "file": "chunk-ZPIBDSKU.js"
     },
-    "chunk-2VJOXCXK": {
-      "file": "chunk-2VJOXCXK.js"
+    "chunk-K25REIWL": {
+      "file": "chunk-K25REIWL.js"
     },
-    "chunk-TBHU3JTM": {
-      "file": "chunk-TBHU3JTM.js"
+    "chunk-KTUAWOVS": {
+      "file": "chunk-KTUAWOVS.js"
     },
-    "chunk-EHU3AD4B": {
-      "file": "chunk-EHU3AD4B.js"
+    "chunk-ZTOXEQTI": {
+      "file": "chunk-ZTOXEQTI.js"
     },
-    "chunk-NIP3PVCZ": {
-      "file": "chunk-NIP3PVCZ.js"
+    "chunk-IM554UCP": {
+      "file": "chunk-IM554UCP.js"
+    },
+    "chunk-CKHDNQCH": {
+      "file": "chunk-CKHDNQCH.js"
+    },
+    "chunk-QZ4JFDOS": {
+      "file": "chunk-QZ4JFDOS.js"
+    },
+    "chunk-C27DBZK2": {
+      "file": "chunk-C27DBZK2.js"
+    },
+    "chunk-2UVUUPPC": {
+      "file": "chunk-2UVUUPPC.js"
+    },
+    "chunk-K54IFBYX": {
+      "file": "chunk-K54IFBYX.js"
     },
     "chunk-6DU2HRTW": {
       "file": "chunk-6DU2HRTW.js"

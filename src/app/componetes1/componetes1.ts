@@ -2,6 +2,7 @@ import { Component, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
+  standalone: true,
   selector: 'app-componetes1',
   imports: [CommonModule],
   templateUrl: './componetes1.html',
