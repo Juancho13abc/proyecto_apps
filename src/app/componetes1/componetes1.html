@@ -1,0 +1,6 @@
+<input id="tarea" [value]="tarea()" (input)="tarea.set($event.target.value)" type="text" placeholder="Escribe una tarea..." />
+<button (click)="agregarTarea()">Add</button>
+
+<ul id="lista">
+  <li *ngFor="let item of lista()">{{ item }}</li>
+</ul>

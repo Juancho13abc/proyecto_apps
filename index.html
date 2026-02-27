@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista de tarea</title>
+</head>
+<body>
+    <center><h1>LISTA DE TAREAS</h1>
+    <form action="form_lista">
+        <label for="input">tarea<input></label>
+        <button>agregar</button>
+    </form>
+    </center>
+    <ul id="lista"></ul>
+    <script>
+        const form = document.querySelector('form');
+        const list = document.getElementById('lista');
+
+        form.addEventListener('submit', function(event) {
+            event.preventDefault(); 
+            const tarea = form.elements[0].value.trim();
+
+            if (tarea !== '') {
+                const li = document.createElement('li');
+                li.textContent = tarea;
+                lista.appendChild(li); 
+                form.reset(); 
+            } else {
+                alert('Por favor, ingresa una tarea válida.');
+            }
+        });
+    </script>
+    <script>
+        const lista = document.getElementById('lista');
+
+        lista.addEventListener('click', function(event) {
+            if (event.target.tagName === 'LI') {
+                event.target.remove(); 
+            }
+        });
+    </script>
+</body>
+</html>
